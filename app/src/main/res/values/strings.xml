@@ -1,3 +1,78 @@
 <resources>
     <string name="app_name">Campus Monitoring</string>
-</resources>
+    <string name="About">culogo1</string>
+    <string name="Enter">Enter Name</string>
+    <string name="ID">Student ID</string>
+    <string name="Email">Email</string>
+    <string name="Phone">Phone Number</string>
+    <string name="Submit">Submit</string>
+    <string name="Lost">Lost</string>
+    <string name="Found">Found</string>
+    <string name="Print">Have You lost something?</string>
+    <string name="Ev">cu3</string>
+    <string-array name="Canteen">
+        <item>"Science Faculty Student Canteen"</item>
+        <item>
+        "Biological Science Cafeteria"
+        </item>
+        <item>
+        "BBA cafeteria"
+        </item>
+        <item>
+        "IT cafeteria"
+        </item>
+        <item>
+        "Social science cafeteria"
+        </item>
+        <item>
+        "IER cafeteria"
+        </item>
+        <item>
+        "Suhrawardy Hall Cafeteria"
+        </item>
+        <item>
+        "Campus Dine"
+        </item>
+
+    </string-array>
+
+    <string-array name="Description">
+
+        <item>
+        "Science Faculty University of chittagong"
+        </item>
+        <item> "Biological faculty, Chittagong University, Hathazari, Chattogram"
+
+        </item>
+        <item> "BBA faculty, Chittagong University, Hathazari, Chattogram"
+
+        </item>
+        <item> "Engineering faculty, Chittagong University, Hathazari, Chattogram"
+
+        </item>
+        <item> "Social Science faculty, Chittagong University, Hathazari, Chattogram"
+
+        </item>
+        <item> "IER faculty, Chittagong University, Hathazari, Chattogram"
+
+        </item>
+        <item> "Suhrawardy Hall,University of Chittagong , Hathazari, Chattogram"
+
+        </item>
+
+        <item>
+          "Marjan Villa, 1no Gate, Beside Rail Station, Chittagong University"
+        </item>
+    </string-array>
+
+
+        <string name="label_name">Name</string>
+        <string name="hint_name">Enter your name</string>
+        <string name="label_email">Email</string>
+        <string name="hint_email">Enter your email</string>
+        <string name="label_student_id">Student ID</string>
+        <string name="hint_student_id">Enter your student ID</string>
+        <string name="label_phone">Phone</string>
+        <string name="hint_phone">Enter your phone number</string>
+        <string name="label_submit">Submit</string>
+    </resources>

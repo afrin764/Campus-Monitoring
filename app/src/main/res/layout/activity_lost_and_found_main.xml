@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- RadioGroup for Lost and Found selection -->
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Lost RadioButton -->
+        <RadioButton
+            android:id="@+id/lost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lost" />
+
+        <!-- Found RadioButton -->
+        <RadioButton
+            android:id="@+id/found"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Found" />
+    </RadioGroup>
+
+    <!-- Button for Register -->
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Register" />
+
+    <!-- Button for Lost and Found -->
+    <Button
+        android:id="@+id/lostFoundButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Lost and Found" />
+
+</LinearLayout>

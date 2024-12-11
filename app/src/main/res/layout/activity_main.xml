@@ -1,19 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="CU App">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </Button>
+
+    <ImageView
+        android:id="@+id/im1"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/About"
+        android:src="@drawable/culogo" />
+
+    <HorizontalScrollView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/log1"
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:layout_margin="40dp"
+                android:src="@drawable/login" />
+
+            <ImageView
+                android:id="@+id/im3"
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:layout_margin="40dp"
+                android:src="@drawable/map" />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/txt1"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="50dp"
+
+            android:text="Login"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/tx2"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:text="Maps"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/im4"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:layout_margin="40dp"
+            android:src="@drawable/event"
+
+            />
+
+        <ImageView
+            android:id="@+id/im5"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:layout_margin="40dp"
+            android:src="@drawable/lost" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/txt3"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="50dp"
+            android:text="Events"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/tx4"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:text="Lost/Found"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/im6"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_margin="40dp"
+        android:src="@drawable/food">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/tx5"
+        android:layout_width="87dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="60dp"
+        android:text="Food"
+        android:textSize="10sp" />
+
+</LinearLayout>
